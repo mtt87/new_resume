@@ -190,7 +190,8 @@ gulp.task('publish', () => {
       hostname: '37.139.31.35',
       destination: '/var/www/mattia-asti.it/public/cv',
       clean: true,
-      recursive: true
+      recursive: true,
+      exclude: ['.*'],
     }));
 });
 
