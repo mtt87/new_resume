@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mattia Asti - Resume</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen,print">
+
+  <!-- build:css styles/main.css -->
+  <style>
+    html,
+    body {
+      height: 99%;
+    }
+
+    * {
+      page-break-before: avoid !important;
+    }
+
+    body {
+      font-size: 15.5px;
+      font-family: "Helvetica Neue", sans-serif;
+    }
+
+    .page {
+      page-break-inside: avoid;
+    }
+
+    .container {
+      max-width: 952px;
+    }
+
+    .list {
+      padding-left: 15px;
+    }
+
+    .list li {
+      margin-bottom: 5px;
+    }
+
+    .me {
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+
+    .mattia {
+      margin-top: 30px;
+      font-size: 3em;
+      font-weight: 700;
+      line-height: 22px;
+    }
+
+    .titolo {
+      font-size: 1.5em;
+    }
+
+    .subtitle {
+      line-height: 1.25em;
+      margin-bottom: 0;
+    }
+
+    .pad-bot {
+      padding-bottom: 30px;
+    }
+
+    .job {
+      padding-bottom: 5px;
+      padding-top: 10px;
+    }
+
+    .job .title {
+      margin-bottom: 5px;
+    }
+
+    .skill-list {
+      font-size: 14px;
+      padding-bottom: 15px;
+    }
+
+    #lang,
+    #license p {
+      font-size: 14px;
+    }
+
+    .edu {
+      padding-bottom: 12px;
+    }
+
+    .cat {
+      font-size: 20px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .cat .glyphicon {
+      margin-right: 15px;
+      font-size: 18px;
+    }
+
+    .cat-side {
+      padding-bottom: 9px;
+      margin: 5px 0 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    @media (min-width: 769px) {
+      body {
+        padding-top: 10px;
+      }
+      .mattia {
+        font-size: 2.3em;
+        font-weight: 700;
+        line-height: 16px;
+      }
+      .titolo {
+        font-size: 1em;
+      }
+    }
+
+    @page {
+      size: A4;
+    }
+
+    @media print {
+      a[href]:after {
+        content: none !important;
+      }
+      html,
+      body {
+        height: auto !important;
+      }
+      body {
+        width: 1050px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      a {
+        color: #337ab7 !important;
+      }
+      .col-md-3 {
+        width: 33% !important;
+        padding: 0 !important;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .col-sm-6 {
+        width: 50% !important;
+        display: inline-block;
+      }
+      .col-md-9 {
+        width: 66% !important;
+        display: inline-block;
+      }
+      .me {
+        margin-bottom: 10px !important;
+        margin-top: 15px !important;
+      }
+      .mattia {
+        margin-top: 28px !important;
+        font-size: 2.2em !important;
+        font-weight: 700 !important;
+        line-height: 16px !important;
+      }
+      .titolo {
+        font-size: 1.1em !important;
+      }
+      .text-muted {
+        color: #999;
+      }
+      small {
+        font-size: 80%;
+      }
+      .no-print {
+        display: none;
+      }
+    }
+  </style>
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row contact">
+      <div class="col-xs-6">
+        <div class="me">
+          <p class="mattia">Mattia Asti</p>
+          <p class="subtitle text-muted">Senior Sofware Engineer</p>
+          <p class="subtitle text-muted">Fullstack JS</p>
+        </div>
+      </div>
+      <div class="col-xs-6 text-right">
+        <div style="padding-top:12px">
+          <a href="https://github.com/mtt87">github.com/mtt87</a>
+          <br>
+          <a href="mailto:mattia.asti@gmail.com">mattia.asti@gmail.com</a>
+          <br>+44 (0) 7522 105777
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <p>I enjoy writing code in Javascript using React(Native) these days to build nice UIs always with an attention for UX.
+          Having my own startup I also like working on the product side and try to build something meaningful for users.
+          I also enjoy experimenting and try new technologies. These days I'm improving my knowledge around GraphQL with the first deployment in production.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="cat text-center">
+          <span class="glyphicon glyphicon-briefcase"></span> Experience
+        </h4>
+        <div class="job">
+          <p class="title">
+            <strong>Senior Software Engineer @
+              <a href="https://tes.com">TES Global</a>
+            </strong>
+            <br>
+            <span class="text-muted">
+              <small>October 2017, present</small>
+            </span>
+          </p>
+          <p>TES is the largest network of teachers in the world and it runs on top of a microservices tech stack.
+            Everything is built with Node and isomorphic React, with a CD infrastructure in place using Jenkins to build and push Docker containers.
+            It's a remote first company with a flat hierarchy structure and we employee many junior engineers which I often enjoy pairing and mentoring.
+          </p>
+          <ul class="list">
+            <li>Payment gateway: significant refactoring, allowing a reduction in bugs, duplicated/missing transaction and lost
+              revenue
+            </li>
+            <li>
+              <a href="https://www.tes.com/teaching-resources">Resources</a> creator tool: introduced markdown editor and wrote a script to convert the existing 3m resources,
+              simplifying and making it more secure.</li>
+            <li>
+              <a href="https://itunes.apple.com/gb/app/tes-jobs/id721094676?mt=8">Mobile app</a>: introduced GraphQL allowing a significant optimisation of the network usage and caching, also
+              built a mobile feed integrated with push notifications.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <p class="title">
+            <strong>CTO @
+              <a href="https://mealseaty.ch">Mealseaty</a>
+            </strong>
+            <br>
+            <span class="text-muted">
+              <small>January 2017, present</small>
+            </span>
+          </p>
+          <p>Born as a sideproject working in the evening with friends, I've architected the whole platform, built the mobile
+            apps and managed 2 freelance developers for a few months to help me mostly with the backend.</p>
+          <ul class="list">
+            <li>
+              Mobile apps:
+              <a href="https://itunes.apple.com/us/app/mealseaty/id1220594114">iOS</a> +
+              <a href="https://play.google.com/store/apps/details?id=ch.mealcity.app">Android</a> - React Native, integrating maps, social logins, Stripe payments and OTA updates with Codepush</li>
+            <li>
+              <a href="https://mealseaty.ch">Website</a> statically generated with Gatsby.js, a merchant portal and a backend REST API all built with React
+              / Node</li>
+          </ul>
+        </div>
+        <div class="job">
+          <p class="title">
+            <strong>Lead Developer @
+              <a href="https://www.techhub.com">TechHub</a>
+            </strong>
+            <br>
+            <span class="text-muted">
+              <small>November 2014, October 2017</small>
+            </span>
+          </p>
+          <p>As a Lead Developer I've hired and managed another developer remotely and often worked with
+            an external agency.
+            Since I've started working with TechHub we launched 5 more international locations so it was important to build
+            a system that could scale, integrate different payment gateways and deal with localisation.</p>
+          <ul class="list">
+            <li>Mobile app (
+              <a href="https://itunes.apple.com/ca/app/techhub/id1147173165?mt=8">iOS</a> +
+              <a href="https://play.google.com/store/apps/details?id=com.techhub&hl=en">Android</a>): React Native, integrating our bespoke meeting room booking system + events + members directory</li>
+            <li>Bespoke
+              <a href="https://bookings.techhub.com/">meeting room booking system</a> - SPA with Riot.js and a Node backend integrating timekit.io APIs and Stripe
+              payments.
+            </li>
+            <li>
+              <a href="https://medium.com/@mattia_asti/creating-a-job-board-in-a-few-days-contentful-riot-js-bulma-io-293276516301">jobs.techhub.com</a> - board where we posted jobs from our community</li>
+            <li>Built a system, based on Raspberry Pis and Nest Cams, to allow streaming of our international locations</li>
+            <li>Onboarding tool for members - payments integration with Stripe, Braintree and Razorpay - Stats dashboard - Mailchimp
+              CRM integration - New Homepage </li>
+          </ul>
+        </div>
+        <div class="job">
+          <p class="title">
+            <strong>Frontend Developer @
+              <a href="https://www.techhub.com">TechHub</a>
+            </strong>
+            <br>
+            <span class="text-muted">
+              <small>October 2013, November 2014</small>
+            </span>
+          </p>
+          <p>I was hired to help them build the internal CRM and refresh the website, which I've achieved applying responsive web designa and greatly improving the performance.</p>
+        </div>
+
+        <div class="job">
+          <p class="title">
+            <strong>Javascript Developer @
+              <a href="https://www.nexmo.com">Nexmo</a>
+              <small style="color:#999">(freelance)</small>
+            </strong>
+            <br>
+            <span class="text-muted">
+              <small>June 2015, August 2015</small>
+            </span>
+          </p>
+          <p>
+            I built their Number Verify <a href="https://github.com/Nexmo/verify-javascript-sdk">Javascript SDK</a>
+          </p>
+        </div>
+        <div class="job">
+          <p class="title">
+            <strong>Frontend and Design @
+              <a href="https://www.winerist.com/">Winerist</a>
+              <small style="color:#999">(freelance)</small>
+            </strong>
+            <br>
+            <span class="text-muted">
+              <small>May 2014, September 2014</small>
+            </span>
+          </p>
+        </div>
+        <div class="job">
+          <p>
+            <strong>Web Developer & Dev-ops @ Youexpo/MhouseGroup</strong>
+            <br>
+            <span class="text-muted">
+              <small>April 2013, October 2013</small>
+            </span>
+          </p>
+        </div>
+        <div class="job">
+          <p class="title">
+            <strong>Junior Web Developer @ PA Digitale</strong>
+            <br>
+            <span class="text-muted">
+              <small>October 2012, April 2013</small>
+            </span>
+          </p>
+        </div>
+        <div style="margin-top:15px">
+          <h4 class="cat text-center">
+            <span class="glyphicon glyphicon-book"></span> Education
+          </h4>
+          <div class="edu">
+            <p>
+              <strong>Industrial and Management Engineering @ Politecnico di Milano</strong>
+              <br>
+              <small>
+                <span class="text-muted">2006, frozen to focus on work</span>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
