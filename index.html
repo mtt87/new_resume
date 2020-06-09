@@ -1,325 +1,391 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mattia Asti - Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      media="screen,print"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mattia Asti - Resume</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen,print">
-
-  <!-- build:css styles/main.css -->
-  <style>
-    html,
-    body {
-      height: 99%;
-    }
-
-    * {
-      page-break-before: avoid !important;
-    }
-
-    body {
-      font-size: 16px;
-      font-family: "Helvetica Neue", sans-serif;
-    }
-
-    .page {
-      page-break-inside: avoid;
-    }
-
-    .container {
-      max-width: 952px;
-    }
-
-    .list {
-      padding-left: 20px;
-    }
-
-    .list li {
-      margin-bottom: 5px;
-    }
-
-    .me {
-      margin-bottom: 10px;
-      margin-top: 15px;
-    }
-
-    .mattia {
-      margin-top: 30px;
-      font-size: 3em;
-      font-weight: 700;
-      line-height: 22px;
-    }
-
-    .titolo {
-      font-size: 1.5em;
-    }
-
-    .subtitle {
-      line-height: 1.25em;
-      margin-bottom: 0;
-    }
-
-    .job {
-      padding-bottom: 5px;
-      padding-top: 10px;
-    }
-
-    .job .title {
-      margin-bottom: 5px;
-    }
-
-    .edu {
-      padding-bottom: 12px;
-    }
-
-    .cat {
-      font-size: 20px;
-      padding-bottom: 5px;
-      border-bottom: 1px solid #eee;
-    }
-
-    .cat .glyphicon {
-      margin-right: 15px;
-      font-size: 18px;
-    }
-
-    @media (min-width: 769px) {
-      body {
-        padding-top: 10px;
-      }
-      .mattia {
-        font-size: 2.3em;
-        font-weight: 700;
-        line-height: 16px;
-      }
-      .titolo {
-        font-size: 1em;
-      }
-    }
-
-    @page {
-      size: A4;
-    }
-
-    @media print {
-      a[href]:after {
-        content: none !important;
-      }
+    <style>
       html,
       body {
-        height: auto !important;
+        height: 99%;
       }
-      body {
-        width: 1050px !important;
-        padding: 0 !important;
-        margin: 0 !important;
-      }
-      a {
-        color: #337ab7 !important;
-      }
-      .col-md-3 {
-        width: 33% !important;
-        padding: 0 !important;
-        display: inline-block;
-        vertical-align: top;
-      }
-      .col-sm-6 {
-        width: 50% !important;
-        display: inline-block;
-      }
-      .col-md-9 {
-        width: 66% !important;
-        display: inline-block;
-      }
-      .me {
-        margin-bottom: 10px !important;
-        margin-top: 15px !important;
-      }
-      .mattia {
-        margin-top: 28px !important;
-        font-size: 2.2em !important;
-        font-weight: 700 !important;
-        line-height: 16px !important;
-      }
-      .titolo {
-        font-size: 1.1em !important;
-      }
-      .text-muted {
-        color: #999;
-      }
-      small {
-        font-size: 80%;
-      }
-      .no-print {
-        display: none;
-      }
-    }
-  </style>
-  <!-- endbuild -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-</head>
 
-<body>
-  <div class="container">
-    <div class="row contact">
-      <div class="col-xs-6">
-        <div class="me">
-          <p class="mattia">Mattia Asti</p>
-          <p class="subtitle text-muted">Senior Sofware Engineer</p>
+      * {
+        page-break-before: avoid !important;
+      }
+
+      body {
+        font-size: 16px;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+
+      .page {
+        page-break-inside: avoid;
+      }
+
+      .container {
+        max-width: 952px;
+      }
+
+      .list {
+        padding-left: 20px;
+      }
+
+      .list li {
+        margin-bottom: 5px;
+      }
+
+      .me {
+        margin-bottom: 10px;
+        margin-top: 15px;
+      }
+
+      .mattia {
+        margin-top: 30px;
+        font-size: 3em;
+        font-weight: 700;
+        line-height: 22px;
+      }
+
+      .titolo {
+        font-size: 1.5em;
+      }
+
+      .subtitle {
+        line-height: 1.25em;
+        margin-bottom: 0;
+      }
+
+      .job {
+        padding-bottom: 5px;
+        padding-top: 10px;
+      }
+
+      .job .title {
+        margin-bottom: 5px;
+      }
+
+      .edu {
+        padding-bottom: 12px;
+      }
+
+      .cat {
+        font-size: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #eee;
+      }
+
+      .cat .glyphicon {
+        margin-right: 15px;
+        font-size: 18px;
+      }
+
+      @media (min-width: 769px) {
+        body {
+          padding-top: 10px;
+        }
+        .mattia {
+          font-size: 2.3em;
+          font-weight: 700;
+          line-height: 16px;
+        }
+        .titolo {
+          font-size: 1em;
+        }
+      }
+
+      @page {
+        size: A4;
+      }
+
+      @media print {
+        a[href]:after {
+          content: none !important;
+        }
+        html,
+        body {
+          height: auto !important;
+        }
+        body {
+          width: 1050px !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+        a {
+          color: #337ab7 !important;
+        }
+        .col-md-3 {
+          width: 33% !important;
+          padding: 0 !important;
+          display: inline-block;
+          vertical-align: top;
+        }
+        .col-sm-6 {
+          width: 50% !important;
+          display: inline-block;
+        }
+        .col-md-9 {
+          width: 66% !important;
+          display: inline-block;
+        }
+        .me {
+          margin-bottom: 10px !important;
+          margin-top: 15px !important;
+        }
+        .mattia {
+          margin-top: 28px !important;
+          font-size: 2.2em !important;
+          font-weight: 700 !important;
+          line-height: 16px !important;
+        }
+        .titolo {
+          font-size: 1.1em !important;
+        }
+        .text-muted {
+          color: #999;
+        }
+        small {
+          font-size: 80%;
+        }
+        .no-print {
+          display: none;
+        }
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row contact">
+        <div class="col-xs-6">
+          <div class="me">
+            <p class="mattia">Mattia Asti</p>
+            <p class="subtitle text-muted">Senior Sofware Engineer</p>
+          </div>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div style="padding-top: 12px;">
+            <a href="https://github.com/mtt87">github.com/mtt87</a>
+            <br />
+            <a href="mailto:mattia.asti@gmail.com">mattia.asti@gmail.com</a>
+            <br />+44 (0) 7522 105777
+          </div>
         </div>
       </div>
-      <div class="col-xs-6 text-right">
-        <div style="padding-top:12px">
-          <a href="https://github.com/mtt87">github.com/mtt87</a>
-          <br>
-          <a href="mailto:mattia.asti@gmail.com">mattia.asti@gmail.com</a>
-          <br>+44 (0) 7522 105777
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h4 class="cat text-center">
-          <span class="glyphicon glyphicon-briefcase"></span> Experience
-        </h4>
-        <div class="job">
-          <p class="title">
-            <strong>Senior Software Engineer @
-              <a href="https://tes.com">TES Global</a>
-            </strong>
-            <br>
-            <span class="text-muted">
-              <small>October 2017, present</small>
-            </span>
-          </p>
-          <p><a href="https://www.tes.com/jobs/">TES</a> is the 2nd largest professional network in the world with 8m teachers.
-            <br>I initially worked in the resource marketplace team and then moved to the mobile team given my expertise with React Native.
-            <br>We have a lot of microservices (150+) and everything is built with Node and React, with a CD infrastructure in place using Jenkins/Kubernetes to build and orchestrate Docker containers.
-            <br>I've hosted a few knowledge sharing session about React Native, async/await and GraphQL which I was the first one in the company to release in production. Projects I've worked on:
-          </p>
-          <ul class="list">
-            <li>Payment gateway: significant refactoring, allowing a reduction in bugs producing duplicated/missing transaction and lost
-              revenue in the resources marketplace (~500k views per day)
-            </li>
-            <li>
-              <a href="https://www.tes.com/teaching-resources">Resources</a> creator tool: introduced a markdown editor and converted existing 3m resources,
-              simplifying the interface for the user and making it more secure.</li>
-            <li>
-              <a href="https://itunes.apple.com/gb/developer/tes-global/id386926588">Mobile apps</a>: among other things I introduced GraphQL allowing a significant optimisation of the network usage and caching.</li>
-          </ul>
-        </div>
-        <div class="job">
-          <p class="title">
-            <strong>CTO & co-founder @ Hextech</strong>
-            <br>
-            <span class="text-muted">
-              <small>January 2017, present</small>
-            </span>
-          </p>
-          <p>Born as a sideproject working in the evening with friends which became a startup and we launched a mobile app for restaurant discovery and discounts.
-            <br>It didn't work as we expected but we learned a lot and recently sunsetted the project.
-            <br>We are now working on a new product that is trying to help people answer the question "What do I want to eat today?" and also building a small e-commerce.
-            <br>I built the entire platform with React/Node/GraphQL/PostgreSQL and the mobile apps with React Native while managing 2 freelancers that occasionally contributed.</p>
-        </div>
-        <div class="job">
-          <p class="title">
-            <strong>Lead Developer @
-              <a href="https://www.techhub.com">TechHub</a>
-            </strong>
-            <br>
-            <span class="text-muted">
-              <small>November 2014, October 2017</small>
-            </span>
-          </p>
-          <p>As a Lead Developer I hired and managed another developer remotely and often worked with
-            an external agency.
-            <br>During my time working with TechHub we launched 5 international locations so it was important to build
-            a system that could scale, integrate different payment gateways and deal with localisation.</p>
-          <ul class="list">
-            <li>Mobile apps built with React Native, integrating a bespoke meeting room booking system, events listing and a members directory.</li>
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="cat text-center">
+            <span class="glyphicon glyphicon-briefcase"></span> Experience
+          </h4>
+          <div class="job">
+            <p class="title">
+              <strong
+                >Software Engineer @
+                <a href="https://11fs.com">11FS Foundry</a>
+              </strong>
+              <br />
+              <span class="text-muted">
+                <small>October 2019, present</small>
+              </span>
+            </p>
+            <p>
+              11FS is the leading fintech consultancy delivering next-generation financial services propositions.
+              I worked on Foundry, their modular, ledger-first set of components that lets you
+              build digitally native propositions to scale and at speed.
+              I worked mainly on their frontend and internal tools, contributing mainly with:
+              <ul>
+                <li>Leading the GraphQL API design</li>
+                <li>Building the components library for our design system introducing CSS-in-JS.</li>
+                <li>Building various PoC to demostrate different integration capabilities and I
+                  was one of the main engineers to demo to our existing and potential clients,
+                  including top tier banks and new fintech challengers.</li>
+                <li>Introducing good React testing practices.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="job">
+            <p class="title">
+              <strong
+                >Senior Software Engineer @
+                <a href="https://tes.com">TES Global</a>
+              </strong>
+              <br />
+              <span class="text-muted">
+                <small>October 2017, August 2019</small>
+              </span>
+            </p>
+            <p>
+              At the time <a href="https://www.tes.com/jobs/">TES</a> was the
+              2nd largest professional network in the world with 8m+ teachers.
+              <br />I worked in the resource marketplace team and mobile team.
+              <br />Microservices architecture (150+) running on K8s and
+              services built with Node and React. <br />I've hosted a few
+              knowledge sharing session about React Native, async/await and I
+              introduced GraphQL in the company. Projects I've worked on:
+            </p>
+            <ul class="list">
+              <li>
+                Payment gateway: significant refactoring, allowing a reduction
+                in bugs producing duplicated/missing transaction and lost
+                revenue in the busiest part of the website: resources
+                marketplace (~500k views per day)
+              </li>
+              <li>
+                <a href="https://www.tes.com/teaching-resources">Resources</a>
+                creator tool: introduced a secure and simple markdown editor
+                migrating the existing 3m resources pages.
+              </li>
+              <li>
+                <a
+                  href="https://itunes.apple.com/gb/developer/tes-global/id386926588"
+                  >Mobile apps</a
+                >: among other things I introduced GraphQL allowing a
+                significant optimisation of the network usage and caching.
+              </li>
+            </ul>
+          </div>
+          <div class="job">
+            <p class="title">
+              <strong>CTO & co-founder @ Hextech</strong>
+              <br />
+              <span class="text-muted">
+                <small>January 2017, present</small>
+              </span>
+            </p>
+            <p>
+              Born as a sideproject working in the evenings with friends it
+              became a company and we built a few projects over the years,
+              including 2 mobile apps and a small e-commerce. Nothing so far
+              worked very well but we made a ton of experience. Our latest
+              project is
+              <a href="https://mangiami.ch">Mangiami</a> a mobile app to help
+              user find their favourite dishes in the Swiss Italian canton.
+            </p>
+          </div>
+          <div class="job">
+            <p class="title">
+              <strong
+                >Lead Developer @
+                <a href="https://www.techhub.com">TechHub</a>
+              </strong>
+              <br />
+              <span class="text-muted">
+                <small>November 2014, October 2017</small>
+              </span>
+            </p>
+            <p>
+              As a Lead Developer I hired and managed another developer remotely
+              and often worked with an external agency. <br />During my time
+              working with TechHub we launched 5 international locations so it
+              was important to build a platform that could scale, integrate
+              different payment gateways and deal with localisation.
+            </p>
+            <!-- <ul class="list">
+            <li>Mobile app built with React Native, integrating a bespoke meeting room booking system, events listing and a members directory.</li>
             <li>Bespoke
-              <a href="https://bookings.techhub.com/">meeting room booking system</a> - SPA with Riot.js and a Node backend integrating timekit.io APIs and Stripe
+              <a href="https://bookings.techhub.com/">meeting room booking system</a> - SPA with a Node backend integrating timekit.io APIs and Stripe
               payments.
             </li>
-            <li>Many small projects over the years including: <a href="https://medium.com/@mattia_asti/creating-a-job-board-in-a-few-days-contentful-riot-js-bulma-io-293276516301">a job board</a>, a live streaming system, based on Raspberry Pis and Nest Cams, an onboarding tool for new members, various payments integration, a stats dashboard, Mailchimp
-              CRM integration and a new Homepage.</li>
-          </ul>
-        </div>
-        <div class="job">
-          <p class="title">
-            <strong>Frontend Developer @
-              <a href="https://www.techhub.com">TechHub</a>
-            </strong>
-            <br>
-            <span class="text-muted">
-              <small>October 2013, November 2014</small>
-            </span>
-          </p>
-          <p>I was hired to help them build the internal CRM and refresh the website.</p>
-        </div>
+            <li>Many small projects over the years including: <a href="https://medium.com/@mattia_asti/creating-a-job-board-in-a-few-days-contentful-riot-js-bulma-io-293276516301">a job board</a>, a live streaming system, based on Raspberry Pis and Nest Cams, an onboarding tool for new members, various payments integration and a stats dashboard.</li>
+          </ul> -->
+          </div>
+          <div class="job">
+            <p class="title">
+              <strong
+                >Frontend Developer @
+                <a href="https://www.techhub.com">TechHub</a>
+              </strong>
+              <br />
+              <span class="text-muted">
+                <small>October 2013, November 2014</small>
+              </span>
+            </p>
+            <p>I was hired to help them build the internal CRM and website.</p>
+          </div>
 
-        <div class="job">
-          <p class="title">
-            <strong>Javascript Developer @
-              <a href="https://www.nexmo.com">Nexmo</a>
-              <small style="color:#999">(freelance)</small>
-            </strong>
-            <br>
-            <span class="text-muted">
-              <small>June 2015, August 2015</small>
-            </span>
-          </p>
-          <p>
-            I built their Number Verify <a href="https://github.com/Nexmo/verify-javascript-sdk">Javascript SDK</a>
-          </p>
-        </div>
-        <div class="job">
-          <p class="title">
-            <strong>Frontend and Design @
-              <a href="https://www.winerist.com/">Winerist</a>
-              <small style="color:#999">(freelance)</small>
-            </strong>
-            <br>
-            <span class="text-muted">
-              <small>May 2014, September 2014</small>
-            </span>
-          </p>
-        </div>
-        <div class="job">
-          <p>
-            <strong>Web Developer & Dev-ops @ Youexpo/MhouseGroup</strong>
-            <br>
-            <span class="text-muted">
-              <small>April 2013, October 2013</small>
-            </span>
-          </p>
-        </div>
-        <div class="job">
-          <p class="title">
-            <strong>Junior Web Developer @ PA Digitale</strong>
-            <br>
-            <span class="text-muted">
-              <small>October 2012, April 2013</small>
-            </span>
-          </p>
-        </div>
-        <h4 class="cat text-center">
-          <span class="glyphicon glyphicon-book"></span> Education
-        </h4>
-        <div class="job">
-          <p>
-            <strong>Industrial and Management Engineering @ Politecnico di Milano</strong>
-            <br>
-            <small>
-              <span class="text-muted">Started in 2006 and never finished. Dropped out at 3 exams from taking the degree to work full time finally realising coding was my real passion.</span>
-            </small>
-          </p>
+          <div class="job">
+            <p class="title">
+              <strong
+                >Javascript Developer @
+                <a href="https://www.nexmo.com">Nexmo</a>
+                <small style="color: #999;">(freelance)</small>
+              </strong>
+              <br />
+              <span class="text-muted">
+                <small>June 2015, August 2015</small>
+              </span>
+            </p>
+            <p>
+              I built their Number Verify
+              <a href="https://github.com/Nexmo/verify-javascript-sdk"
+                >Javascript SDK</a
+              >
+            </p>
+          </div>
+          <div class="job">
+            <p class="title">
+              <strong
+                >Frontend and Design @
+                <a href="https://www.winerist.com/">Winerist</a>
+                <small style="color: #999;">(freelance)</small>
+              </strong>
+              <br />
+              <span class="text-muted">
+                <small>May 2014, September 2014</small>
+              </span>
+            </p>
+          </div>
+          <div class="job">
+            <p>
+              <strong>Web Developer & Dev-ops @ Youexpo/MhouseGroup</strong>
+              <br />
+              <span class="text-muted">
+                <small>April 2013, October 2013</small>
+              </span>
+            </p>
+          </div>
+          <div class="job">
+            <p class="title">
+              <strong>Junior Web Developer @ PA Digitale</strong>
+              <br />
+              <span class="text-muted">
+                <small>October 2012, April 2013</small>
+              </span>
+            </p>
+          </div>
+          <h4 class="cat text-center">
+            <span class="glyphicon glyphicon-book"></span> Education
+          </h4>
+          <div class="job">
+            <p>
+              <strong
+                >Industrial and Management Engineering @ Politecnico di
+                Milano</strong
+              >
+              <br />
+              <small>
+                <span class="text-muted"
+                  >Started in 2006 and never finished. Dropped out at 3 exams
+                  from taking the degree to work full time finally realising
+                  coding was my real passion.</span
+                >
+              </small>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
