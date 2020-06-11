@@ -149,9 +149,9 @@
           font-size: 1.1em !important;
         }
         .text-muted {
-          color: #999;
+          color: #999 !important;
         }
-        small {
+        .small {
           font-size: 80%;
         }
         .no-print {
@@ -176,11 +176,11 @@
           </div>
         </div>
         <div class="col-xs-6 text-right">
-          <div style="padding-top: 12px;">
+          <div style="padding-top: 24px;">
             <a href="https://github.com/mtt87">github.com/mtt87</a>
             <br />
             <a href="mailto:mattia.asti@gmail.com">mattia.asti@gmail.com</a>
-            <br />+44 (0) 7522 105777
+            <!-- <br />+44 (0) 7522 105777 -->
           </div>
         </div>
       </div>
@@ -192,24 +192,24 @@
           <div class="job">
             <p class="title">
               <strong
-                >Software Engineer @
-                <a href="https://11fs.com">11FS Foundry</a>
+                >Senior Software Engineer @
+                <a href="https://11fs.com">11FS</a>
               </strong>
               <br />
-              <span class="text-muted">
-                <small>October 2019, present</small>
-              </span>
+              <span class="small text-muted">October 2019, present</span>
             </p>
             <p>
               11FS is the leading fintech consultancy delivering next-generation financial services propositions.
-              I worked on Foundry, their modular, ledger-first set of components that lets you
-              build digitally native propositions to scale and at speed.
-              I worked mainly on their frontend and internal tools, contributing mainly with:
+              I work on <a href="https://11fs.com/digital-financial-services/11fs-foundry">Foundry</a>, the modular, ledger-first set of components that lets you
+              build digitally native propositions to scale at speed.
+              I work mainly on the frontend which includes a web admin portal, a demo mobile app and internal tools.
+              The stack is based on React using Typescript and GraphQL. I contributed mainly with:
               <ul>
-                <li>Leading the GraphQL API design</li>
-                <li>Building the components library for our design system introducing CSS-in-JS.</li>
-                <li>Building various PoC to demostrate different integration capabilities and I
-                  was one of the main engineers to demo to our existing and potential clients,
+                <li>Leading the GraphQL API design.</li>
+                <li>Leading the authentication layer implementation using Auth0.</li>
+                <li>Building the components library for our design system introducing CSS-in-JS and styled-system.</li>
+                <li>Building various PoC to demostrate different integration capabilities. I
+                  was one of the main engineers to run demo to our existing and potential clients,
                   including top tier banks and new fintech challengers.</li>
                 <li>Introducing good React testing practices.</li>
               </ul>
@@ -222,24 +222,21 @@
                 <a href="https://tes.com">TES Global</a>
               </strong>
               <br />
-              <span class="text-muted">
-                <small>October 2017, August 2019</small>
+              <span class="small text-muted">
+                October 2017, August 2019
               </span>
             </p>
             <p>
-              At the time <a href="https://www.tes.com/jobs/">TES</a> was the
-              2nd largest professional network in the world with 8m+ teachers.
-              <br />I worked in the resource marketplace team and mobile team.
-              <br />Microservices architecture (150+) running on K8s and
-              services built with Node and React. <br />I've hosted a few
-              knowledge sharing session about React Native, async/await and I
-              introduced GraphQL in the company. Projects I've worked on:
+              At the time <a href="https://www.tes.com/jobs/">TES</a> was one of the
+              largest professional network in the world with 8m+ teachers.
+              <br />The stack was based on a lot of node microservices (150+) and React on the frontend.
+              <br />Projects I've worked on included:
             </p>
             <ul class="list">
               <li>
                 Payment gateway: significant refactoring, allowing a reduction
                 in bugs producing duplicated/missing transaction and lost
-                revenue in the busiest part of the website: resources
+                revenue in the busiest part of the website, the resources
                 marketplace (~500k views per day)
               </li>
               <li>
@@ -255,20 +252,22 @@
                 significant optimisation of the network usage and caching.
               </li>
             </ul>
+            <p>I've also hosted internal
+              knowledge sharing sessions about React Native, serverless and GraphQL.</p>
           </div>
           <div class="job">
             <p class="title">
-              <strong>CTO & co-founder @ Hextech</strong>
+              <strong>CTO & co-founder @ <a href="https://hextech.ch/">Hextech</a></strong>
               <br />
-              <span class="text-muted">
-                <small>January 2017, present</small>
+              <span class="small text-muted">
+                January 2017, present
               </span>
             </p>
             <p>
               Born as a sideproject working in the evenings with friends it
               became a company and we built a few projects over the years,
               including 2 mobile apps and a small e-commerce. Nothing so far
-              worked very well but we made a ton of experience. Our latest
+              worked very well but I gained a lot of experience. Our latest
               project is
               <a href="https://mangiami.ch">Mangiami</a> a mobile app to help
               user find their favourite dishes in the Swiss Italian canton.
@@ -281,13 +280,13 @@
                 <a href="https://www.techhub.com">TechHub</a>
               </strong>
               <br />
-              <span class="text-muted">
-                <small>November 2014, October 2017</small>
+              <span class="small text-muted">
+                November 2014, October 2017
               </span>
             </p>
             <p>
               As a Lead Developer I hired and managed another developer remotely
-              and often worked with an external agency. <br />During my time
+              and managed the relationship with an external web agency. <br />During my time
               working with TechHub we launched 5 international locations so it
               was important to build a platform that could scale, integrate
               different payment gateways and deal with localisation.
@@ -308,8 +307,8 @@
                 <a href="https://www.techhub.com">TechHub</a>
               </strong>
               <br />
-              <span class="text-muted">
-                <small>October 2013, November 2014</small>
+              <span class="small text-muted">
+                October 2013, November 2014
               </span>
             </p>
             <p>I was hired to help them build the internal CRM and website.</p>
@@ -319,12 +318,12 @@
             <p class="title">
               <strong
                 >Javascript Developer @
-                <a href="https://www.nexmo.com">Nexmo</a>
-                <small style="color: #999;">(freelance)</small>
+                <a href="https://www.nexmo.com">Vonage Nexmo</a>
+                <span class="text-muted small"">(freelance)</span>
               </strong>
               <br />
-              <span class="text-muted">
-                <small>June 2015, August 2015</small>
+              <span class="small text-muted">
+                June 2015, August 2015
               </span>
             </p>
             <p>
@@ -339,11 +338,11 @@
               <strong
                 >Frontend and Design @
                 <a href="https://www.winerist.com/">Winerist</a>
-                <small style="color: #999;">(freelance)</small>
+                <span class="small text-muted">(freelance)</span>
               </strong>
               <br />
-              <span class="text-muted">
-                <small>May 2014, September 2014</small>
+              <span class="small text-muted">
+                May 2014, September 2014
               </span>
             </p>
           </div>
@@ -351,8 +350,8 @@
             <p>
               <strong>Web Developer & Dev-ops @ Youexpo/MhouseGroup</strong>
               <br />
-              <span class="text-muted">
-                <small>April 2013, October 2013</small>
+              <span class="small text-muted">
+                April 2013, October 2013
               </span>
             </p>
           </div>
@@ -360,8 +359,8 @@
             <p class="title">
               <strong>Junior Web Developer @ PA Digitale</strong>
               <br />
-              <span class="text-muted">
-                <small>October 2012, April 2013</small>
+              <span class="small text-muted">
+                October 2012, April 2013
               </span>
             </p>
           </div>
@@ -375,13 +374,11 @@
                 Milano</strong
               >
               <br />
-              <small>
-                <span class="text-muted"
+                <span class="small text-muted"
                   >Started in 2006 and never finished. Dropped out at 3 exams
                   from taking the degree to work full time finally realising
                   coding was my real passion.</span
                 >
-              </small>
             </p>
           </div>
         </div>
