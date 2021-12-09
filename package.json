@@ -1,0 +1,23 @@
+{
+  "name": "new_resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtt87/new_resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtt87/new_resume/issues"
+  },
+  "homepage": "https://github.com/mtt87/new_resume#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
